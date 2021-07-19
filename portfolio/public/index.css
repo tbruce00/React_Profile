@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .tightBody {
+    color: azure;
+    background-color: black;
+    font-family: 'Oxygen, sans-serif;
+  }
+  
+  .heroImg {
+    overflow: auto;
+    position: relative;
+  }
+  
+  .heroImg::before {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('./images/code_block.jpg');
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+  }

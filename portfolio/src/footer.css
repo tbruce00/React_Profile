@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem;
+    background: linear-gradient(300deg, #997c99, #a507a5, #993f99);
+    font-weight: bolder;
+    border-top: 5px rgb(139, 108, 108);
+}
+
+
+.footerIcons {
+    color: whitesmoke;
+    size: 30px;
+}
+
+.footerIcons::hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px thistle;
+}
