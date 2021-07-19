@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/nav.css';
 import { HiMail } from "react-icons/hi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GrGithub } from 'react-icons/gr';
@@ -19,8 +20,6 @@ export default function Footer() {
                 <span className="footerName">&#8482 No Methods Just Madness</span>  
             </div>    
             </div>
-
-
         </div>
     );
 }
