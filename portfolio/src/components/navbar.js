@@ -1,6 +1,6 @@
 import React from 'react';
+import './../assets/nav.css';
 import { FaAsterisk } from 'react-icons/fa';
-// import nav style sheet
 import { GrInstagram } from "react-icons/gr";
 import { GrFacebook } from "react-icons/gr";
 import { GrTwitter } from "react-icons/gr";
@@ -39,19 +39,25 @@ function Navbar({ currentPage, handlePageChange}) {
             </li>
         </ul>
         <div className="socialMedia">
+            <a href="https://www.instagram.com/tbruce00/" target="_blank">
             <span>
                 <GrInstagram />
             </span>
+            </a>
+            <a href="https://www.facebook.com/trevor.bruce.1428/" target="_blank">
             <span>
                 <GrFacebook />
             </span>
+            </a>
+            <a href="https://twitter.com/tbruce03" target="_alt">
             <span>
                 <GrTwitter />
             </span>
+            </a>
         </div>
 
         </div>
-    )
+    );
 }
 
 
