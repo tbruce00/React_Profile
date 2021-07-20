@@ -1,0 +1,21 @@
+.about {
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+}
+
+h1 {
+    float: left;
+    font-size: 5rem;
+}
+
+.aboutMe p {
+    margin-top: 15px;
+}
+
+.profPic {
+    float: left;
+    border-width: 5px;
+    border-style: double solid solid double;
+    box-shadow: 2px 2px 0 0 violet;
+}
+

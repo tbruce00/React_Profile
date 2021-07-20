@@ -6,9 +6,10 @@ export default function About() {
     return (
         <div className="container">
         <div className="about mx-auto p-auto">
-            <h1>Trevor Bruce's Portfolio</h1>
+            <h1 className="text-center">Trevor Bruce's Portfolio</h1>
+            <br />
             <h2>about me</h2>
-            <img src={profpic} alt="Super Cool Pic of Me" />
+            <img className="profPic" src={profpic} alt="Super Cool Pic of Me" />
             <br />
             <div className="aboutMe">
                 <p>
