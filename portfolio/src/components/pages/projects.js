@@ -31,17 +31,28 @@ export default function Projects() {
             </div>
             <div className="card">
                 <div className="card-img-body">
-                    <img className="card-img" src="portfolio/src/images/sticky.png" alt="Stick It To Me"></img>
+                    <img className="card-img" src="portfolio/src/images/budgetTracker.png" alt="Budget Tracker"></img>
                 </div>
                 <div className="card-body">
-                    <h2 className="card-title">Stick It To Me</h2>
+                    <h2 className="card-title">Budget Tracker</h2>
                     <p className="card-text">Something Explaining Project Goes HERE</p>
-                    <a href="https://boiling-garden-97737.herokuapp.com/" className="btn btn-outline-primary">Visit App</a>
-                    <a href="https://github.com/CWhirl/Project-2" className="btn btn-outline-secondary">Github Repo</a>
+                    <a href="https://shielded-inlet-66273.herokuapp.com/" className="btn btn-outline-primary">Visit App</a>
+                    <a href="https://github.com/tbruce00/PWA_BudgetTracker" className="btn btn-outline-secondary">Github Repo</a>
+                </div>
+            </div>
+            <div className="card">
+                <div className="card-img-body">
+                    <img className="card-img" src="portfolio/src/images/addworkout.png" alt="Workout Tracker"></img>
+                </div>
+                <div className="card-body">
+                    <h2 className="card-title">Workout Tracker</h2>
+                    <p className="card-text">Something Explaining Project Goes HERE</p>
+                    <a href="https://agile-spire-74922.herokuapp.com/" className="btn btn-outline-primary">Visit App</a>
+                    <a href="https://github.com/tbruce00/NoSQL_WorkoutTracker" className="btn btn-outline-secondary">Github Repo</a>
                 </div>
             </div>
             </div>
             </div>
-        </div>
+            </div>
     )
 }

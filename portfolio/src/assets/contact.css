@@ -7,3 +7,23 @@
     height: 600px;
     justify-content: center;
 }
+
+
+.pdfIcon {
+    size: 45px;
+    color: white;
+}
+
+h2 {
+    float: right;
+}
+
+button {
+    size: 45px;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 3px solid violet;
+    cursor: pointer;
+}
