@@ -3,6 +3,7 @@ import '../assets/nav.css';
 import { HiMail } from "react-icons/hi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GrGithub } from 'react-icons/gr';
+
 export default function Footer() {
     return (
         <div className= "footer">
