@@ -14,26 +14,34 @@ function Navbar({ currentPage, handlePageChange}) {
         </span>
         <ul className="nav navLinks justify-content-center">
             <li className="nav-item">
-                <a href="#about" onClick={() => handlePageChange("About")}
-                className={currentPage === "About" ? "nav-link-active" : "nav-link"}>
+                <a href="#about" onClick={() => handlePageChange("about")}
+                className={currentPage === "about" ? "nav-link-active" : "nav-link"}>
                 
                 about
                 
                 </a>
             </li>
             <li className="nav-item">
-                <a href="#portfolio" onClick={() => handlePageChange("Projects")}
-                className={currentPage === "Projects" ? "nav-link-active" : "nav-link"}>
+                <a href="#portfolio" onClick={() => handlePageChange("projects")}
+                className={currentPage === "projects" ? "nav-link-active" : "nav-link"}>
                 
                 projects    
                 
                 </a>
             </li>
             <li className="nav-item">
-                <a href="#contact" onClick={() => handlePageChange("Contact")}
-                className={currentPage === "Contact" ? "nav-link-active" : "nav-link"}>
+                <a href="#contact" onClick={() => handlePageChange("contact")}
+                className={currentPage === "contact" ? "nav-link-active" : "nav-link"}>
 
                 contact
+                
+                </a>
+            </li>
+            <li className="nav-item">
+                <a href="#resume" onClick={() => handlePageChange("resume")}
+                className={currentPage === "resume" ? "nav-link-active" : "nav-link"}>
+
+                resume
                 
                 </a>
             </li>
